@@ -21,4 +21,8 @@ app.get('/employees/details/:id', async (req, res) => {
   });
 });
 
+app.get('/', (req, res) => {
+  res.send('BD6.6 - CW');
+});
+
 module.exports = { app };
